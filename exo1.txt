@@ -1,0 +1,230 @@
+    1  sudo apt update
+    2  sudo apt full-upgrade
+    3  sudo reboot
+    4  lspci
+    5  sudo apt install texmaker
+    6  sudo apt -y install r-base
+    7  wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-2021.09.1-372-amd64.deb
+    8  sudo apt install -f ./rstudio-2021.09.1-372-amd64.deb
+    9  ls
+   10  cd Downloads/
+   11  ls
+   12  sudo apt install ./zoom_amd64.deb 
+   13  sudo apt install jupyter-notebook
+   14  sudo apt install sagemath
+   15  sudo apt install geogebra
+   16  jupyter
+   17  jupyter-notebook
+   18  ls
+   19  cd Downloads/
+   20  ls
+   21  sudo apt install ./skypeforlinux-64.deb 
+   22  sudo apt install spyder
+   23  echo "my name is Fama"
+   24  cd shell-lesson
+   25  git clone
+   26  git clone https://github.com/gabayae/friendly-shell-lesson.git shell-lesson
+   27  ls
+   28  cd shell-lesson
+   29  ls
+   30  pwd
+   31  whoami
+   32  cd..
+   33  cd ..
+   34  pwd
+   35  mkdir MyMusic
+   36  rmdir MyMusic
+   37  ls
+   38  touch testfile
+   39  ls
+   40  rm testfile
+   41  man
+   42  man man
+   43  gedit testfile.txt
+   44  touch testfile.txt
+   45  cd shell-lesson
+   46  touch testfile.txt
+   47  nano testfile.txt
+   48  cat testfile.txt
+   49  mkdir folder1
+   50  ls
+   51  cd testfile.txt folder1/
+   52  cd testfile.txt folder1
+   53  cp testfile.txt folder1
+   54  ls
+   55  cd folder1
+   56  ls
+   57  cd ..
+   58  touch test2.txt
+   59  cd
+   60  touch test2.txt
+   61  mv test2.txt folder1/
+   62  cd shelle-lesson
+   63  cd shell-lesson
+   64  mv test2.txt foder
+   65  mv test2.txt foder1
+   66  mv test2.txt folder1
+   67  cd
+   68  mkdir simplestats
+   69  cd simplestats
+   70  ls
+   71  git init
+   72  ls
+   73  ls -a
+   74  ls -A
+   75  cd .git/
+   76  ls
+   77  ls -A
+   78  git description
+   79  gedit description
+   80  cd ..
+   81  touch README.md
+   82  git status
+   83  git add README.md
+   84  git status
+   85  gedit README.md
+   86  git statut
+   87  git status
+   88  git add README.md
+   89  git status
+   90  git log
+   91  git commit -m "first commit"
+   92  git config --global user.name"famafallguene"
+   93  git config --global user.email "fama.f.guene@aims-senegal.org"
+   94  git log
+   95  git commit -m "first commit"
+   96  git log
+   97  gedit README.md
+   98  git add README.md
+   99  git status
+  100  git commit -m "first commit"
+  101  git log
+  102  git branch
+  103  git branch exprimental
+  104  gid branch
+  105  git branch
+  106  git branch -d experimental
+  107  git branch -d exprimental
+  108  git branch
+  109  git branch add_stat
+  110  git branch
+  111  git chechout add_stat
+  112  git checkout add_stat
+  113  git branch
+  114  jupyter notebook
+  115  ls
+  116  mkdir called unix
+  117  ls
+  118  mkdir called-unix
+  119  ls
+  120  touch foo.txt
+  121  ls
+  122  mkdir unix
+  123  ls
+  124  mkdir unix
+  125  cd unix
+  126  touch foo.txt
+  127  cp foo.txt foo-copy.txt
+  128  ren foo-copy.txt foo2.txt
+  129  mv foo-copy.txt foo2.txt
+  130  mkd data
+  131  mkdi data
+  132  mkdir data
+  133  mv foo2.txt data
+  134  mkdir new
+  135  mv foo2.txt new
+  136  mv foo2.txt/data new
+  137  cd data
+  138  mv foo2.txt new
+  139  mv foo2.txt unix
+  140  cd new
+  141  cd.
+  142  cd..
+  143  cd ..
+  144  cd new
+  145  mv foo2.txt unix
+  146  cd ..
+  147  cd data
+  148  mkdir unix
+  149  clear
+  150  ls
+  151  cd Bureau
+  152  cd ..
+  153  LS
+  154  ls
+  155  cd unix
+  156  touch foo.txt
+  157  cp foo.txt foo-copy.txt
+  158  mv foo-copy.txt foo2.txt
+  159  mkdir data
+  160  mv foo2.txt data
+  161  mkdir new
+  162  mv data/foo2.txt new
+  163  ls
+  164  mv new/foo2.txt unix
+  165  ls
+  166  cd ..
+  167  cd unix
+  168  mv new/foo2.txt
+  169  cd new
+  170  mv new/foo2.txt unix
+  171  cd ..
+  172  cd new
+  173  cd unix
+  174  cd new
+  175  mv foo2.txt unix
+  176  ls
+  177  mv data/foo2.txt new
+  178  mkdir unix
+  179  cd unix
+  180  touch foo.txt
+  181  cp foo.txt foo-copy.txt
+  182  mv foo-copy.txt foo2.txt
+  183  mkdir data
+  184  mv foo2.txt data
+  185  mkdir new
+  186  mv data/foo2.txt new
+  187  mv new/foo2.txt foo-old.txt
+  188  ls
+  189  rm foo-old.txt
+  190  ls
+  191  mrdir new
+  192  rmdir new
+  193  history >> exo1.txt
+  194  ls
+  195  mkdir unix
+  196  ls
+  197  mkdir unix
+  198  ls
+  199  cd unix
+  200  touch foo.txt
+  201  ls
+  202  cp foo.txt foo-copy.txt
+  203  ls
+  204  mv foo-copy.txt foo2.txt
+  205  ls
+  206  mkdir new
+  207  mkdir unix
+  208  ls
+  209  cd unix
+  210  touch foo.txt
+  211  ls
+  212  cp foo.txt foo-copy.txt
+  213  ls
+  214  mv foo-copy.txt foo2.txt
+  215  ls
+  216  mkdir data
+  217  ls
+  218  mv foo2.txt data
+  219  ls
+  220  mkdir new
+  221  ls
+  222  mv data/foo2.txt new
+  223  ls
+  224  mv new/foo2.txt foo-old.txt
+  225  ls
+  226  rm foo-old.txt
+  227  ls
+  228  rmdir new
+  229  ls
+  230  history >> exo1.txt
